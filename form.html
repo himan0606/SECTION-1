@@ -9,7 +9,17 @@
     <h1>Student Admission Form</h1>
     <form action="">
         <label for="">Full name</label>
-        <input type="text"><br><br>
+        <input type="text" required minlength="5">
+        
+        <br><br>
+
+        <label for="">password</label>
+        <input type="password" name="" id="">
+        <br><br>
+
+        <label for="">Email Address</label>
+        <input type="email" required>
+        <br><br>
 
         <label for="">Gender</label>
 
@@ -35,19 +45,28 @@
          <input type="text" list="Board">
 
          <datalist id="Board">
-
-            <option value="">cBSE</option>
-            <option value="">ISC</option>
-            <option value="">UP</option>
-
-         </datalist>
+            <option>cBSE</option>
+            <option>ISC</option>
+            <option>UP</option>
+        </datalist>
          <br><br> 
           
          <details>
             <summary>term & condition</summary>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, porro! Nam, suscipit nihil nemo officia maiores maxime! Nam, eius. Error autem ipsum nesciunt voluptate aut fugit tenetur quidem necessitatibus accusamus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, porro! Nam, suscipit nihil <mark>nemo officia maiores maxime!</mark>
+                  Nam, eius. Error autem ipsum nesciunt voluptate aut fugit tenetur quidem necessitatibus accusamus?</p>
          </details>
+          <br><br>
+
+          <input type="checkbox" name="" id="">
+          <label for="">I Accept Terms & Condition</label>
+
+          <br><br>
+           <label for=" image">Upload Passport Size Photo</label>
+           <input type="file">
+
+           <br><br>
 
 
 
