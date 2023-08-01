@@ -10,13 +10,13 @@
         background-color:white;
         border-radius: 10px;
         padding: 20px;
-        width: 600px;
+        width: 300px;
 
     }
 
     .parent{
         display: flex;
-        justify-content: center;
+        justify-content:;center: ;
          align-items:right
          ;
             height: 100vh;
@@ -27,12 +27,19 @@
         width: 100%;
             padding: 10px;
             border-radius: 5px;
-            background-color: crimson;
+            background-color: rgba(20, 63, 220, 0.758);
             color: white;
             border: none;
             font-weight: bold;
             margin-top: 30px;
     }
+    .my-btn:hover{
+            background-color: rgb(25, 167, 255);
+        }
+        .my-btn:focus{
+            outline: 3px solid #ffb2c2;
+            
+        }
 
     .log{
         padding: 10px;
@@ -40,47 +47,105 @@
         align-items: center;
     }
 
+    .icon{
+        padding: 40px;
+        size: 10%;
+        width: 60px;
+        
+    }
+
+    .child2{
+        padding: 60px;
+        background-color:white;
+        border-radius: 10px;
+        padding: 20px;
+        width: 800px;
+        
+        resize: vertical;
+        
+    }
+
 
 
 
     </style>
-</head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+    </head>
+
 <body>
+    <div>
+        <div>
+        
+            <h3>DEV</h3>
+            <div>
+             <div>
+            <label for=""></label>
+            <input type="text" name="name" id="">
+        </div>
+            </div>
+      
+        </div>
+    </div>
+
+
     <div class="parent">
         <div class="child">
-            <h3>DEV Community is a community of 1,105,442 amazing developers<h3>
+            <h2>DEV Community is a community of 1,105,442 amazing developers<h2>
                <p> We're a place where coders share, stay up-to-date and grow their careers.</p>
                <button class="mybtn">Create Account</button>
-               <button class="log">Log in </button>
+               <button class="log  ">Log in </button>
+
+               <div class="icon">
+                <div>
+                  
+                <div>
+                    <h3>Home</h3>
+                    <i class="fa-solid fa-house"></i>&nbsp;&nbsp;</div>
+                   <div>
+                    <div>
+                    <h3>Download</h3>
+                    <i class="fa-solid fa-download"></i>&nbsp;&nbsp;</div>
+                    </div>
+                    <div>
+                        <h3>Favorites</h3>
+                        <i class="fa-solid fa-heart"></i></div>
+                    <div>
+                        <h3>Youtube</h3>
+                        <i class="fa-brands fa-youtube"></i></div>
 
 
-         </div>  
+               </div>
+               </div>
 
-           <div class="child">
-            <h3>child 2</h3>
+
+         </div> 
+
+           
+           <div class="child2 ">
+            <div>
+                <h2>Relavent</h2>
+                <h2>Latest</h2>
+                <h2>Top</h2>
+            </div>
+            
+            <img src="https://png.pngtree.com/thumb_back/fh260/back_pic/00/04/64/715624af3fe5286.jpg" alt="">
+
+            <div>
+                <div>
+                    <i class="fa-solid fa-heart"></i>
+
+                </div>
+            </div>
+            
+          
         </div>
+    
 
-        <div class="child">
+        <div class="child 3">
             <h3>child 3</h3>
         </div>
-        <div class="child">
-            <h3>child 4</h3>
-        </div>
-
-        <div class="child">
-            <h3>child 5</h3>
-        </div>
-
-        <div class="child">
-            <h3>child 6</h3>
-        </div>
-
-          
-
-                
-             
-        
-
+       
     </div>
     
 </body>
